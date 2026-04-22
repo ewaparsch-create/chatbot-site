@@ -1,0 +1,5 @@
+name = "chatbot-site"
+compatibility_date = "2026-04-22"
+
+[assets]
+directory = "."
