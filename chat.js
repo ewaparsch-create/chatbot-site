@@ -211,7 +211,7 @@ async function autoGreet() {
   if (!getThreadId() && !hasGreeted()) {
     setBusy(true);
     try {
-      const data = await callChat("Hallo");
+      const data = await callChat("start");
       addLine("bot", data.reply ?? "(keine reply im JSON)");
       setGreeted();
     } catch (e) {
