@@ -5,7 +5,7 @@
 
 // === CONFIG: Nur oberste 3 Werte anpassen  ===
 let CONFIG = {
-  WORKER_URL: "https://nina-disk.ewa-parsch.workers.dev",  
+  WORKER_URL: "https:/nina-disk.ewa-parsch.workers.dev"  
   BOT_NAME: "Nina",  
   BOT_ROLE: "Assistant",
   COLORS: {
@@ -16,11 +16,10 @@ let CONFIG = {
     linkColor: "#1b79ff"
   },
   TEXTS: {
-    placeholder: "Napisz coś…",
-    sendButton: "Wyślij",
-    statusReady: "Gotowe",
-    statusSending: "dalej
-      "
+    placeholder: "Schreib etwas…",
+    sendButton: "wyślij",
+    statusReady: "Bereit.",
+    statusSending: "Sende…"
   }
 };
 
@@ -242,3 +241,4 @@ msg.focus();
 
 // Automatische Begrüßung starten
 setTimeout(autoGreet, 50);
+
