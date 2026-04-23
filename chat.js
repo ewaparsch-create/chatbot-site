@@ -240,5 +240,5 @@ autoResizeTextarea();
 msg.focus();
 
 // Automatische Begrüßung starten
-setTimeout(autoGreet, 50);
+setTimeout(autoGreet, 500);
 
