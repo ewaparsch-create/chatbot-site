@@ -5,7 +5,7 @@
 
 // === CONFIG: Nur oberste 3 Werte anpassen  ===
 let CONFIG = {
-  WORKER_URL: "https:/nina-disk.ewa-parsch.workers.dev"  
+  WORKER_URL: "https://nina-disk.ewa-parsch.workers.dev", 
   BOT_NAME: "Nina",  
   BOT_ROLE: "Assistant",
   COLORS: {
@@ -16,10 +16,10 @@ let CONFIG = {
     linkColor: "#1b79ff"
   },
   TEXTS: {
-    placeholder: "Schreib etwas…",
+    placeholder: "Napisz coś…",
     sendButton: "wyślij",
-    statusReady: "Bereit.",
-    statusSending: "Sende…"
+    statusReady: "gotowe.",
+    statusSending: "dalej…"
   }
 };
 
