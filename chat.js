@@ -16,10 +16,11 @@ let CONFIG = {
     linkColor: "#1b79ff"
   },
   TEXTS: {
-    placeholder: "Schreib etwas…",
-    sendButton: "Senden",
-    statusReady: "Bereit.",
-    statusSending: "Sende…"
+    placeholder: "Napisz coś…",
+    sendButton: "Wyślij",
+    statusReady: "Gotowe",
+    statusSending: "dalej
+      "
   }
 };
 
@@ -240,4 +241,4 @@ autoResizeTextarea();
 msg.focus();
 
 // Automatische Begrüßung starten
-setTimeout(autoGreet, 500);
+setTimeout(autoGreet, 50);
